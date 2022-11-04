@@ -436,3 +436,387 @@ p {
 	height: 214px;
 	background-color: #ff2d2d;
 }
+
+/* subscribe */ 
+
+.subscribe{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    background-color: #2c2c2c;
+    padding-top: 124px;
+    padding-bottom: 140px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.subscribe_header{
+	max-width: 1249px;
+	margin: 0 auto;
+	text-align: center;
+}
+.subscribe_title{
+	color: #fff;
+	opacity: 0.8;
+	text-transform: none;
+	margin-bottom: 30px;
+}
+.subscribe_text{
+	color: #fff;
+	opacity: 0.8;
+	margin-bottom: 50px;
+}
+.subscribe_box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.subscribe_box .subscribe_email{
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	flex: 0 1 521px;
+	min-height: 79px;
+	padding: 0;
+	padding-left: 35px;
+	padding-right: 35px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 22px;
+	color: #8e8e8e;
+	background-color: #fff;
+}
+.subscribe_box .subscribe_button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 700;
+	width: 214px;
+	min-height: 79px;
+	color: #fff;
+	background-color: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+/* contacts */
+
+.contacts{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 92px;
+	padding-bottom: 110px;
+}
+.contacts .contacts::after {
+	height: 100%;
+	background-color: #2c2c2c;
+}
+.contact_message{
+	flex: 1 1 auto;
+}
+.message_header{
+	box-sizing: border-box;
+}
+.message_title{
+	margin-bottom: 34px;
+}
+.message_text{
+	max-width: 720px;
+	margin-bottom: 50px;
+}
+.contacts_lines{
+	width: 122px;
+    height: 3px;
+    background-color: #ff2d2d;
+    border: none;
+	margin-left: 0;
+	margin-bottom: 75px;
+}
+.messages{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 100%;
+	max-width: 731px;
+	margin-right: 107px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.messages_box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.messages_enter{
+	box-sizing: border-box;
+	padding-left: 54px;
+	padding-right: 54px;
+	border: none;
+	border-radius: 5px;
+	color: #8e8e8e;
+	background-color: #f3f3f3;	
+	margin-bottom: 45px;
+}
+.messages_name{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	width: 339px;
+	height: 69px;
+	background-color: #f3f3f3;
+}
+.messages_mail{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	width: 339px;
+	height: 69px;
+	background-color: #f3f3f3
+}
+.messages_message{
+	resize: none;
+	font-size: 16px;
+	width: 100%;
+	max-width: 731px;
+	height: 252px;
+	box-sizing: border-box;
+	padding: 35px 54px;
+	margin-bottom: 45px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f3f3f3;	
+}
+.messages_button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 731px;
+	height: 72px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+} 
+.contact{
+	box-sizing: border-box;
+	position: relative;
+	color: #e0e0e0;
+	background-color: #2c2c2c;
+	box-sizing: border-box;
+	padding: 125px 53px 125px 78px;
+	min-height: 481px;
+	max-width: 411px;
+}
+.contact_heading{
+	color: #e0e0e0;
+	font-size: 18px;
+	margin-bottom: 13px;
+}
+.contact_address{
+	line-height: 1.75;
+}
+.contacts_line{
+	margin-bottom: 17px;
+}
+.contact-box{
+	min-height: 481px;
+	flex: 1 1 auto;
+}
+.contact_bg-color{
+	background-color: #2c2c2c;
+}
+.contacts::after{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translateX(100%);
+	width: 100vw;
+	height: 100%;
+	background-color: #2c2c2c;
+}
+
+/* footers */
+.footers {
+	background-color: #2c2c2c;
+	padding: 0 1vw;
+}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	box-sizing: border-box;
+	padding: 19px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 110px;
+	color: #e0e0e0;
+	background-color: #2c2c2c;
+}
+.footer_link {
+	display: inline-block;
+}
+.footer_links > .footer_link:not(:last-child) {
+	margin-right: 18px;
+}
+
+/* media */
+
+@media screen and (max-width: 1286px) {
+	.intro {
+		flex-wrap: nowrap;
+	}
+	.intro_title {
+		width: 50%;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding-right: 15px;
+	}
+	.intro-heading {
+		font-size: 5vw;
+	}
+	.intro_img-link {
+		width: 50%;
+	}
+	.intro_img {
+		width: 100%;
+		height: auto;
+	}
+	.feature-prd_img {
+		justify-content: flex-start;
+	}
+	.examples {
+		max-width: 100%;
+		margin-right: 1vw;
+	}
+	.message {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		padding: 0 1vw;
+		grid-column: 1 / 6;
+		grid-row: 1 / 2;
+	}
+	.messages {
+		margin-right: 0;
+	}
+	.contacts {
+		flex-wrap: wrap;
+		padding-left: initial;
+		padding-right: initial;
+		padding-bottom: 0;
+		grid-template-columns: 100%;
+	}
+	.subscribe_headerx {
+		flex: 0 1 auto;
+	}
+	.contact {
+		width: 100%;
+		max-width: 100%;
+		grid-column: 1 / 6;
+		grid-row: 2 / 3;
+	}
+	.contact-background {
+		display: none;
+	}
+	.contacts::after {
+		content: initial;
+	}
+}
+
+@media screen and (max-width: 907px) {
+	.advantage_blog,
+	.adv_block {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.feature-prd_item {
+		width: 100%;
+		text-align: center;
+	}
+	.advantage {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.teams {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.team_img {
+		margin-bottom: 18px;
+		margin-right: 0;
+	}
+} 
+
+@media screen and (max-width: 800px) {
+	.advantage_blog {
+		width: 100%;
+		max-width: 100%;
+	}
+	.adv_block {
+		width: 100%;
+		max-width: 100%;
+	}
+	.contact {
+		padding: 1vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.messages_name,
+	.messages_mail,
+	.messages_message,
+	.messages_button {
+		width: 100%;
+	}
+	.messages_eedback__name {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.wrapper {
+		padding-left: 20px;
+	}
+	.intro {
+		flex-wrap: wrap;
+	}
+	.intro_title {
+		width: 100%;
+	}
+	.intro__img {
+		widh: 100%;
+		height: auto;
+	}
+	.intro_heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.subscribe_box {
+		flex-wrap: wrap;
+	}
+}
