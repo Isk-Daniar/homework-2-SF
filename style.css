@@ -55,6 +55,7 @@ p {
 .page__intro_grey {
 	background-color: #e0e0e0;
 }
+
 /* header */
 
 .header{
@@ -649,6 +650,7 @@ p {
 }
 
 /* footers */
+
 .footers {
 	background-color: #2c2c2c;
 	padding: 0 1vw;
